@@ -1,0 +1,86 @@
+{
+  "api": {
+    "title"          : [
+      "Уютная квартира в самом центре города.",
+      "Уютный домик на природе."
+    ],
+    "description"    : [
+      "Отличный вид на город и удобства для комфортного проживания.",
+      "Домик для отдыха в окружении природы. Свежий воздух и уединение."
+    ],
+    "createdDate"    : [
+      "2022-04-16",
+      "2022-04-15"
+    ],
+    "city"           : [
+      "Москва", 
+      "Санкт-Петербург"
+    ],
+    "cover"          : [
+      "preview_image.jpg", 
+      "preview_image2.jpg"
+    ],
+    "pictures"       : [
+      "photo1.jpg", 
+      "photo2.jpg", 
+      "photo3.jpg", 
+      "photo4.jpg", 
+      "photo5.jpg", 
+      "photo6.jpg",
+      "photo7.jpg", 
+      "photo8.jpg", 
+      "photo9.jpg", 
+      "photo10.jpg", 
+      "photo11.jpg", 
+      "photo12.jpg"
+    ],
+    "premium"        : [
+      "true", 
+      "false"
+    ],                   
+    "favorites"      : [
+      "true", 
+      "false"
+    ],                   
+    "rating"         : [
+      "4.5", 
+      "5.0"
+    ],                   
+    "type"           : [
+      "apartment", 
+      "house"
+    ],                
+    "numberRooms"    : [
+      "2", 
+      "4"
+    ],                  
+    "numberGuests"   : [
+      "4", 
+      "6"
+    ],                   
+    "price"          : [
+      "1500", 
+      "2500"
+    ],
+    "amenities"      : [
+      "Breakfast", 
+      "Air conditioning", 
+      "Laptop friendly workspace", 
+      "Washer", 
+      "Towels", 
+      "Fridge"
+    ],                
+    "author"         : [
+      "another_author", 
+      "another_author"
+    ],                   
+    "numberComments" : [
+      "10", 
+      "5"
+    ],                    
+    "coordinates"    : [
+      "55.7558, 37.6176", 
+      "59.9343, 30.3351"
+    ]                   
+  }
+}
