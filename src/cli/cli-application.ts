@@ -1,4 +1,4 @@
-import { CommandParser } from "./index.js";
+import { CommandParser } from "./index.js"
 import { Command } from "./commands/command.interface.js";
 
 type CommandCollection = Record<string, Command>;
@@ -20,7 +20,7 @@ export class CLIApplication {
   // 1
   // метод принимаем в качестве агумента массив земпляров классов с командами
   public registerCommands(commandList: Command[]): void {
-    commandList.forEach((command) => {
+    commandList.forEach(command => {
       
       // проверка на случай если продублировали экзепляр класса
       if (command.getName() in this.commands) {

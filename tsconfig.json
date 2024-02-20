@@ -8,6 +8,7 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
@@ -28,8 +29,10 @@
     ]
   },
   "include": [
-    "src/**/*.ts"
-, "../../my/_commands_my.ts", "../../my/_index.ts"  ],
+    "src/**/*.ts",
+    "../../my/_commands_my.ts",
+    "../../my/_index.ts"
+  ],
   "exclude": [
     "node_modules",
     "**/*.test.ts"
